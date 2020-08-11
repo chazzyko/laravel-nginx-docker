@@ -20,6 +20,8 @@ sudo docker-compose run --rm npm install && npm run dev
 
 # Generate Laravel keys
 docker-compose run --rm artisan key:generate
+
+# Config Laravel cache
 docker-compose run --rm artisan config:cache
 
 # Change DB user password for Laravel in .env file 
