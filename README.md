@@ -14,6 +14,8 @@ cd src/
 
 # To install Laravel with all dependencies inside temp container
 docker run --rm -v $(pwd):/app composer install
+
+# To install Laravel npm dependencies
 sudo docker-compose run --rm npm install && npm run dev
 
 # Generate Laravel keys
