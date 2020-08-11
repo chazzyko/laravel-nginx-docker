@@ -2,7 +2,7 @@
 
 # To install Latest Laravel on Docker
 
-# Git pull this repo
+# Git pull this repo and build Docker images
 sudo docker-compose build && sudo docker-compose up -d
 
 # To pull Laravel repo (src/ - in the same location with Dockerfile)
