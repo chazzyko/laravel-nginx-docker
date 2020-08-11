@@ -7,7 +7,9 @@ sudo docker-compose build && sudo docker-compose up -d
 
 # To pull Laravel repo (src/ - in the same location with Dockerfile)
 mkdir src/
+
 git clone https://github.com/laravel/laravel.git src
+
 cd src/
 
 # To install Laravel with all dependencies inside temp container
