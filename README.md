@@ -21,21 +21,21 @@ sudo docker-compose run --rm npm install && npm run dev
 ### Generate Laravel keys
 docker-compose run --rm artisan key:generate
 
-# Config Laravel cache
+### Config Laravel cache
 docker-compose run --rm artisan config:cache
 
-# Change DB name, user, password for Laravel app in .env file 
+### Change DB name, user, password for Laravel app in .env file 
 
-# To build Laravel DB
+### To build Laravel DB
 sudo docker-compose run --rm artisan migrate
 
-# Tear down if needed
+### Tear down if needed
 sudo docker-compose down
 
-# Stop if needed
+### Stop if needed
 sudo docker-compose stop
 
-# To enter a container (sh -- run bash script)
+### To enter a container (sh -- run bash script)
 sudo docker-compose exec php sh
 
 
