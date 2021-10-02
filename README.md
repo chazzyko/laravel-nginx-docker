@@ -1,4 +1,4 @@
-# Laravel nginx on Docker
+# PHP Laravel nginx MySQL on Docker
 
 ### To install Latest Laravel on Docker:
 
