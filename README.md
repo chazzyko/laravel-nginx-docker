@@ -1,8 +1,8 @@
-# laravel-nginx-docker
+# Laravel nginx on Docker
 
-## To install Latest Laravel on Docker
+### To install Latest Laravel on Docker:
 
-### Git pull this repo and build Docker images
+**git pull** this repo and build Docker images
 sudo docker-compose build && sudo docker-compose up -d
 
 ### To pull Laravel repo (src/ - in the same location with Dockerfile)
