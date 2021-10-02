@@ -5,7 +5,7 @@
 **git pull** this repo and build Docker images
 sudo docker-compose build && sudo docker-compose up -d
 
-### To pull Laravel repo (src/ - in the same location with Dockerfile)
+### To pull official Laravel repo (in the same location with Dockerfile files)
 mkdir src/
 
 git clone https://github.com/laravel/laravel.git src
