@@ -24,7 +24,7 @@ docker-compose run --rm artisan key:generate
 ### Config Laravel cache
 docker-compose run --rm artisan config:cache
 
-Change DB name, user, password for Laravel app in .env file
+Change DB name, user, password for Laravel app in .env file.
 In .env file DB_HOST={container_name} (container name in docker-compose.yml file)
 
 ### To build Laravel DB
