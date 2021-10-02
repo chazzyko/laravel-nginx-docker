@@ -16,7 +16,7 @@ cd src/
 docker run --rm -v $(pwd):/app composer install
 
 ### To install Laravel npm dependencies
-sudo docker-compose run --rm npm install && npm run dev
+sudo docker-compose up -d
 
 ### Generate Laravel keys
 docker-compose run --rm artisan key:generate
